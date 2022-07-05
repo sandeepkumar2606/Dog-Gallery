@@ -86,7 +86,7 @@ getimage.click(function (e) {
         let allimages = data.message;
 
         for (let image of allimages) {
-            $('#outercontainer').append('<div id="innerdiv" style="height:400px; border:2px double black; margin:1.2rem; width:418px;"> <img src=" ' + image + ' " height="100%" width="100%" alt=" ' + image + ' "></div>');
+            $('#outercontainer').append('<div id="innerdiv" style="height:400px; border:2px double black; border-radius: 2rem; margin:1.2rem; width:418px;"> <img src=" ' + image + ' " height="100%" width="100%" style="border-radius:2rem" alt=" ' + image + ' "></div>');
 
         }
 

@@ -1,6 +1,6 @@
 body
 {
-    background-color: lightblue;
+    background-color: rgb(104, 110, 125);
 }
 
 form
@@ -9,16 +9,40 @@ form
     justify-content:space-evenly;
     flex-wrap: wrap;
     align-content: center;
-    background-color: lightskyblue;
+    background-color: rgb(6, 36, 55);
     padding:1rem;
     font-size: 1.5rem;
     height:5rem;
 
 }
 
+#dropdown
+{
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: lightgray;
+}
+
+#seconddropdown
+{
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: lightgray;
+}
+
 form button{
     margin-left:15rem;
     font-size: 1.5rem;
+    border-radius: 2rem;
+    padding:0.5rem;
+    box-shadow: 1px 1px 1px 2px rgb(205, 211, 205);
+}
+
+form button:hover{
+    background-color: blue;
+    color: white;
+    transition: all 0.2s;
+    box-shadow: 0px 0px;
 }
 
 form input
