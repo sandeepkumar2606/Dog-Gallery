@@ -38,7 +38,7 @@ It is a web application in which we get all the images of the choosen breed.
 
 ## My process
 
-I made this application using Ajax request and API handling.
+I made this application using Ajax request and APIs.
 
 ### Built with
 
